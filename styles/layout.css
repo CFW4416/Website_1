@@ -1,0 +1,149 @@
+.wrap {
+max-width: 1100px;
+margin: 0 auto;
+padding: 20px;
+}
+.top {
+padding: 40px 0 10px;
+text-align: center;
+}
+.head {
+display: flex;
+justify-content: space-between;
+align-items: flex-start;
+margin-top: 20px;
+text-align: left;
+}
+.intro {
+max-width: 520px;
+}
+.logo {
+width: 90px;
+}
+.mid {
+display: flex;
+justify-content: space-between;
+gap: 50px;
+padding: 50px 0 30px;
+}
+.left {
+flex: 1;
+}
+.right {
+flex: 1;
+padding-top: 40px;
+}
+.creatures {
+display: flex;
+justify-content: space-around;
+text-align: center;
+padding: 50px 0;
+gap: 30px;
+}
+.item {
+flex: 1;
+max-width: 300px;
+}
+.item img {
+width: 240px;
+height: 240px;
+object-fit: contain;
+margin: 0 auto 20px;
+}
+.tickets {
+display: flex;
+padding: 40px 0;
+justify-content: center;
+}
+.ticket {
+display: flex;
+background: #e8e8f0;
+color: #111;
+border-radius: 24px;
+overflow: hidden;
+width: 100%;
+max-width: 900px;
+box-shadow: 0 10px 40px rgba(0,0,0,0.4);
+}
+.info {
+flex: 1;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+gap: 18px;
+padding: 35px 30px;
+border-right: 2px dashed #bbb;
+}
+.info img {
+width: 80px;
+}
+.buy {
+flex: 1;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+padding: 35px 30px;
+}
+.btn {
+background: #1a237e;
+color: #fff;
+padding: 14px 50px;
+border-radius: 30px;
+font-size: 18px;
+margin-top: 20px;
+transition: background 0.3s;
+}
+.btn:hover {
+background: #3949ab;
+}
+.schedule {
+position: relative;
+padding: 60px 0 80px;
+text-align: center;
+overflow: hidden;
+}
+.wing {
+position: absolute;
+width: 420px;
+opacity: 0.35;
+pointer-events: none;
+z-index: 0;
+}
+.wing1 {
+left: -80px;
+top: 20px;
+transform: scaleX(-1);
+}
+.wing2 {
+right: -80px;
+top: 20px;
+}
+.shows {
+position: relative;
+z-index: 1;
+display: flex;
+justify-content: space-around;
+gap: 60px;
+margin-top: 30px;
+}
+.col {
+text-align: left;
+}
+@media (max-width: 700px) {
+.head, .mid, .creatures, .ticket, .shows {
+flex-direction: column;
+align-items: center;
+}
+.intro {
+text-align: center;
+}
+.info {
+border-right: none;
+border-bottom: 2px dashed #bbb;
+}
+.wing {
+width: 280px;
+}
+}

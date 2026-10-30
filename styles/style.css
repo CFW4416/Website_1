@@ -1,0 +1,80 @@
+h1 {
+font-size: 52px;
+font-weight: 700;
+text-transform: uppercase;
+letter-spacing: 3px;
+margin-bottom: 0;
+}
+.desc {
+font-size: 14px;
+opacity: 0.85;
+line-height: 1.5;
+}
+h2 {
+font-size: 28px;
+margin-bottom: 18px;
+}
+.verse {
+font-size: 14px;
+opacity: 0.9;
+line-height: 1.6;
+}
+.name {
+font-size: 22px;
+font-weight: 700;
+margin: 12px 0 10px;
+}
+.bio {
+font-size: 13px;
+opacity: 0.85;
+}
+.addr {
+font-size: 13px;
+text-align: center;
+}
+.contact {
+font-size: 13px;
+text-align: center;
+}
+.contact p {
+margin: 5px 0;
+}
+.place {
+font-size: 34px;
+font-weight: 700;
+margin-bottom: 10px;
+}
+.time {
+font-size: 38px;
+font-weight: 700;
+margin-bottom: 20px;
+text-transform: uppercase;
+position: relative;
+z-index: 1;
+}
+.show {
+font-size: 16px;
+margin-bottom: 18px;
+opacity: 0.9;
+}
+.list {
+font-size: 14px;
+line-height: 1.9;
+}
+.list span {
+display: inline-block;
+min-width: 120px;
+}
+body {
+background: radial-gradient(ellipse at 50% 0%, #1e3a6e 0%, #0d1b3a 40%, #050b1a 100%);
+min-height: 100vh;
+}
+.creatures {
+background: linear-gradient(to bottom, transparent 0%, rgba(10,20,60,0.4) 100%);
+}
+.schedule {
+background: radial-gradient(ellipse at center, #1a2a5a 0%, #0a1228 60%, #050b1a 100%);
+}
+.btn {
+cursor: default;
+}
